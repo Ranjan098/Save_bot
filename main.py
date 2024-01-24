@@ -7,10 +7,10 @@ import time
 import os
 import threading
 
-bot_token = os.environ.get("TOKEN", "6729914054:AAF3OyP2vRob1OrUb5zQaAfhgCpDb2GIafE") 
-api_hash = os.environ.get("HASH", "0c10ea4f48923a14a6b22cb93a5c5650") 
-api_id = os.environ.get("ID", "11070525")
-ss = os.environ.get("STRING", "BQCo7D0AphY_UmQTCYRzgZJKSYDpoXDTKWUN7joxvlIdeMRvi7MDwXvsiQp-MJMkC8-0NC6OULk_juAHketFmCL9X5ylrAoVHa-s0K1yLRmzVmCEcuGTde3nvQDltWo6FsANCLWzv7oLjocVCAOmtSGgyRKaBrO0Nbe6-lfMPI1V71kvBthE3SYH7P33zKvWCkxlNe2H90nprcnhKN_QgPZxpvAnJrTTFBmuTt8mZ2QjXhAVG_22WoYvtVbRW2MN5U1UZuMuzfX_whnr8rEie2MRkq_NnpcTDiDXXH4ZNJK7X-q6FbrkzPCVOxp0y0HjGrn9AlK0FrT4NyrQvUgx8uo56XDjdQAAAABYg38YAA")
+bot_token = os.environ.get("TOKEN", "6593486018:AAHglflrA3Mhyr1fYyS3GZmpimSjb1GxrPM") 
+api_hash = os.environ.get("HASH", "f25113b8c17dca6fa7abda53a86bd4f7") 
+api_id = os.environ.get("ID", "12606917")
+ss = os.environ.get("STRING", "AQDAXcUAbvYOfkdicf4Hsf-lsJadDNbSgm5lcfJ38tz7WG2rl80WUPyeY8BCBUScdknEo79pfQc5aGkvfdiQsCxVIpgCi55ZCToZalJTTCT5BhMwWFLjpJp7bGrvcN0No7cZHTiz1r7ni-Dkc7ZIh9ew6441x4Tecc-pKOuyQhMYRPuKn7SdAVvp4by1NGxkFB9mpMPJcBxSurejlNMiLoCxL0lj5-DHydyJN90tdNOry4lhQf08omYzZeeMon428YYrX7HN5ADlIURnAhCzYSdXyNI2haOCSt9HmlbozoW7PL3YGI_9PnOQ8LDcKwrPshMqh6VVR8106Va7KTUqlfWdJXQBRgAAAAE8_fPSAA")
 bot = Client("mybot",api_id=api_id,api_hash=api_hash,bot_token=bot_token)
 acc = Client("myacc",api_id=api_id,api_hash=api_hash,session_string=ss)
 
